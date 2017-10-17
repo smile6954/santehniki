@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Самстрой</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="less.min.js type="text/javascript"></script>
+</head>
+<body>
+	<header class="page-header">
+		<h1 class="visually-hidden">Услуги сантехника Самара</h1>
+		<div class="page-header__logo">
+		  <h2>Самстрой</h2>
+			
+		</div>
+		<nav class="main-nav main-nav_closed">
+			<button class="main-nav__toggle"></button>
+		  <div class="main-nav__wrapper">		  	
+			<ul class="main-nav__items" >
+				<li class="main-nav__item main-nav__item_active">
+					<a>Главная</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Наши работы</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Записаться</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Контакты</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">О нас</a>
+				</li>
+			</ul>
+		  		
+		  </div>		
+		</nav>
+	</header>
+	<section class="stats">
+		<header class="stats__header">
+			<div class="stats__title">
+				<h2>УСЛУГИ САНТЕХНИКА В САМАРЕ</h2>
+			</div>
+			<div class="stats__slogan">
+				<p>Доверяйте только профессианалам
+				</p>
+			</div>
+				
+		</header>	
+		
+		<div class="stats__list">
+		  <div class="stats__item">
+			<div class="stats__number">от 2000 рублей</div>
+			<div class="stats__unit"><p>ЗАМЕНА ТРУБ, СТОЯКОВ, КАНАЛИЗАЦИИ</p></div>
+		  </div>
+		  <div class="stats__item">
+			<div class="stats__number">от 1000 рублей </div>
+			<div class="stats__unit"><p>ЗАМЕНА И РЕМОНТ САНТЕХНИКИ</p></div>
+		  </div>
+		  <div class="stats__item">
+			<div class="stats__number">ОТ 1500 РУБЛЕЙ</div>
+			<div class="stats__unit"><p>МОНТАЖ СИСТЕМ ОТОПЛЕНИЯ И РАДИАТОРОВ</p></div>
+		  </div>
+		  <div class="stats__item">
+			<div class="stats__number">ОТ 600 РУБЛЕЙ <sup>*</sup></div>
+			<div class="stats__unit"><p>уСТРАНЕНИЕ ЗАСОРОВ И ТЕЧИ ТРУБ</p></div>
+		  </div>				
+		</div>	
+	</section>	
+		<section class=wrapper>
+			<div class="milestone">
+			<img src="img/milestone1.png" /><h3>Заявка</h3>
+			<p>Позвоните 754-312<br />
+			или Оставьте заявку</p>
+			<p><em></em>
+			</p></div>
+			<div class="milestone">
+			<img src="img/milestone2.png" /><h3>Бесплатный замер</h3>
+			<p>Мастер приедет<br />
+			 на осмотр</p>
+			<p><em></em>
+			</p></div>
+			<div class="milestone">
+			<img src="img/milestone3.png" /><h3>СМЕТА</h3>
+			<p>Согласование плана<br />
+			и стоимости работ</p>
+			<p><em></em>
+			</p></div>
+			<div class="milestone">
+			<img src="img/milestone4.png" /><h3>Выполнение работ</h3>
+			<p>Профессиональное<br />
+			выполнение работ</p>
+			<p><em></em>
+			</p></div>
+			<div class="milestone">
+			<img src="img/milestone5.png" /><h3>ПРИЕМ РАБОТЫ</h3>
+			<p>Прием и оплата<br />
+			работы</p>
+			</div>
+
+		</section>
+		<div class="trr">
+			<div class="tr" width="50%" height="20px"> dddf</div>
+			<div class="tr1" width="50%" height="20px">111</div>
+		</div>
+		<div class="qq">
+			11
+		</div>
+	<script >
+		var navmain = document.querySelector ('.main-nav');
+		var navtoggle = document.querySelector ('.main-nav__toggle');
+		navmain.classList.remove('main-nav_nojs');
+		navtoggle.addEventListener('click', function() {
+			if (navmain.classList.contains('main-nav_closed')) {
+				navmain.classList.remove('main-nav_closed');
+				navmain.classList.add('main-nav_opened');
+			} else {
+				navmain.classList.add('main-nav_closed');
+				navmain.classList.remove('main-nav_opened');
+			}
+		});
+
+	</script>	
+</body>
+</html>
