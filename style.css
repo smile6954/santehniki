@@ -385,6 +385,13 @@ a {
   border:none;
   text-align: center; 
  } 
-}
+  .slick-slider{
+  margin: 0 auto;
+  width: 1000px;
+ }
+ }
+ .slick-slider{
+  margin: 0 auto;
+  width: 1000px;
 
 
