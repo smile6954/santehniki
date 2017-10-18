@@ -220,6 +220,9 @@ a {
  .we{
   margin-top: 40px;
 } 
+.page-footer__we h2{
+  font-size: 14px;
+}
 
 @media (min-width: 768px){
   .page-header {
